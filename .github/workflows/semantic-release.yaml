@@ -10,12 +10,12 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install latest npm
-      run: npm install -g npm@
+      run: sudo npm install -g npm@
     - name: Install dependencies
       run: npm ci --no-audit
     - name: Run semantic relase
       env:
         GK_LOCK_DEFAULT_BRANCH: saga
       run: |
-        npm i --no-save semantic-release;
+        npm i --no-save semantic-release@next
         npx semantic-release || true
