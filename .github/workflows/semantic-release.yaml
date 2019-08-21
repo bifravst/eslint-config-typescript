@@ -1,9 +1,9 @@
-name: CI
+name: Semantic Release
 
 on: [push]
 
 jobs:
-  build:
+  release:
 
     runs-on: ubuntu-latest
     
@@ -14,9 +14,8 @@ jobs:
     - name: Install dependencies
       run: npm ci --no-audit
     - name: Run semantic relase
+      with:
+        GK_LOCK_DEFAULT_BRANCH: saga
       run: |
         npm i --no-save semantic-release;
         npx semantic-release || true
-      with:
-        GK_LOCK_DEFAULT_BRANCH: saga
-        
