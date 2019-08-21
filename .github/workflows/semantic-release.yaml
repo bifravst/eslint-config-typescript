@@ -16,6 +16,9 @@ jobs:
     - name: Run semantic relase
       env:
         GK_LOCK_DEFAULT_BRANCH: saga
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_USERNAME: ${{ secrets.GH_USERNAME }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
         npm i --no-save semantic-release@next
         npx semantic-release || true
