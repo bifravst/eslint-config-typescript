@@ -1,0 +1,22 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Install latest npm
+      run: npm install -g npm@
+    - name: Install dependencies
+      run: npm ci --no-audit
+    - name: Run semantic relase
+      run: |
+        npm i --no-save semantic-release;
+        npx semantic-release || true
+      with:
+        GK_LOCK_DEFAULT_BRANCH: saga
+        
