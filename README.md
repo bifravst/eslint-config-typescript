@@ -1,4 +1,4 @@
-# Bifravst TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@bifravst/eslint-config-typescript.svg)](https://www.npmjs.com/package/@bifravst/eslint-config-typescript)
+# Bifravst TypeScript ESLint Config
 
 [![GitHub Actions](https://github.com/bifravst/eslint-config-typescript/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/eslint-config-typescript/actions)
 [![Greenkeeper badge](https://badges.greenkeeper.io/bifravst/eslint-config-typescript.svg)](https://greenkeeper.io/)
@@ -12,3 +12,12 @@ ESLint configuration (with
 for all Bifravst projects.
 
 See [@bifravst/code-style](https://github.com/bifravst/code-style) for usage.
+
+## Installation
+
+> Note: This package is hosted on the GitHub package registry and
+> [npm needs to be configured](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#installing-a-package)
+> in order to use it.
+
+    echo "@bifravst:registry=https://npm.pkg.github.com" >> .npmrc
+    npm i --save-dev @bifravst/eslint-config-typescript
