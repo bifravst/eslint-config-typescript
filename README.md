@@ -1,6 +1,5 @@
-# Bifravst TypeScript ESLint Config
+# Bifravst TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@bifravst/eslint-config-typescript.svg)](https://www.npmjs.com/package/@bifravst/eslint-config-typescript)
 
-[![GitHub Package Registry version](https://img.shields.io/github/release/bifravst/eslint-config-typescript.svg?label=GPR&logo=github)](https://github.com/bifravst/eslint-config-typescript/packages/26698)
 [![GitHub Actions](https://github.com/bifravst/eslint-config-typescript/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/eslint-config-typescript/actions)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -15,9 +14,4 @@ See [@bifravst/code-style](https://github.com/bifravst/code-style) for usage.
 
 ## Installation
 
-> Note: This package is hosted on the GitHub package registry and
-> [npm needs to be configured](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#installing-a-package)
-> in order to use it.
-
-    echo "@bifravst:registry=https://npm.pkg.github.com" >> .npmrc
     npm i --save-dev @bifravst/eslint-config-typescript
