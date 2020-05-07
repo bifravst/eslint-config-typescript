@@ -11,7 +11,7 @@ module.exports = {
 		'prettier',
 	],
 	rules: {
-		'@typescript-eslint/indent': ['error', 'tab'],
+		'@typescript-eslint/indent': ['off'],
 		'@typescript-eslint/no-object-literal-type-assertion': ['off'],
 		'@typescript-eslint/explicit-function-return-type': ['off'],
 		'@typescript-eslint/await-thenable': ['error'],
