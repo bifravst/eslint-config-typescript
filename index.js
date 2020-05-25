@@ -50,5 +50,6 @@ module.exports = {
 		'@typescript-eslint/consistent-type-definitions': ['error', 'type'],
 		'@typescript-eslint/no-explicit-any': ['off'],
 		'no-console': ['off'],
+		'@typescript-eslint/strict-boolean-expressions': ['error'],
 	},
 }
