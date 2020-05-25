@@ -51,5 +51,7 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': ['off'],
 		'no-console': ['off'],
 		'@typescript-eslint/strict-boolean-expressions': ['error'],
+		'@typescript-eslint/prefer-nullish-coalescing': ['error'],
+		'@typescript-eslint/prefer-optional-chain': ['error'],
 	},
 }
