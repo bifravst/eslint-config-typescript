@@ -65,10 +65,7 @@
     "package-lock.json",
     "index.js",
     "LICENSE",
-    "README.md",
-    ".prettierrc.js",
-    "tsconfig.json",
-    "templates"
+    "README.md"
   ],
   "scripts": {
     "snyk-protect": "snyk protect",
