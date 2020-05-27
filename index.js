@@ -55,4 +55,9 @@ module.exports = {
 		'@typescript-eslint/prefer-optional-chain': ['error'],
 		'@typescript-eslint/explicit-module-boundary-types': ['error'],
 	},
+	env: {
+		browser: true,
+		amd: true,
+		node: true,
+	},
 }
