@@ -24,7 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^3.0.1",
     "@typescript-eslint/parser": "^3.0.1",
     "eslint-config-prettier": "^6.11.0",
-    "snyk": "^1.330.0"
+    "snyk": "^1.334.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
