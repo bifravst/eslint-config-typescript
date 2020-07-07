@@ -27,6 +27,8 @@ jobs:
           key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
       - name: Install dependencies
         run: npm ci --no-audit
+      - name: Install peer dependencies
+        run: npm i --no-save eslint typescript
       - run: npm test
       - name: Semantic release
         continue-on-error: true
