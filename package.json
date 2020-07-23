@@ -22,7 +22,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^3.4.0",
+    "@typescript-eslint/parser": "^3.5.0",
     "eslint-config-prettier": "^6.11.0",
     "snyk": "^1.355.0"
   },
