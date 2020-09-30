@@ -21,10 +21,10 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "eslint-config-prettier": "^6.11.0",
-    "snyk": "1.402.0"
+    "snyk": "1.404.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
