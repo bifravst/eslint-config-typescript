@@ -1,22 +1,21 @@
 {
-  "name": "@bifravst/eslint-config-typescript",
+  "name": "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript",
   "version": "0.0.0-development",
-  "description": "ESLint config for all Bifravst projects.",
+  "description": "ESLint config for all Asset Tracker Cloud Example projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bifravst/eslint-config-typescript.git"
+    "url": "git+https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/bifravst/eslint-config-typescript/issues"
+    "url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/issues"
   },
-  "homepage": "https://bifravst.github.io/",
+  "homepage": "https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript#readme",
   "keywords": [
     "Cloud",
     "IoT",
-    "Bifravst",
-    "Asset Tracker",
-    "NordicSemiconductor"
+    "Asset Tracker Cloud Example",
+    "Nordic Semiconductor"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
