@@ -1,3 +1,6 @@
+> **:truck: moved to https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript**  
+> :information_source: [more info](https://github.com/bifravst/bifravst/issues/56)
+
 # TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript.svg)](https://www.npmjs.com/package/@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript)
 
 [![GitHub Actions](https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/workflows/Semantic%20Release/badge.svg)](https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/actions)
