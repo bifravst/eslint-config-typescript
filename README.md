@@ -1,4 +1,4 @@
-# TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript.svg)](https://www.npmjs.com/package/@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript)
+# TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript.svg)](https://www.npmjs.com/package/@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript)
 
 [![GitHub Actions](https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/workflows/Semantic%20Release/badge.svg)](https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/actions)
 [![Known Vulnerabilities](https://snyk.io/test/github/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/badge.svg?targetFile=package.json)](https://snyk.io/test/github/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript?targetFile=package.json)
@@ -19,4 +19,4 @@ for usage.
 
 ## Installation
 
-    npm i --save-dev @nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript
+    npm i --save-dev @nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript

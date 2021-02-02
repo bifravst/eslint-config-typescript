@@ -1,5 +1,5 @@
 {
-  "name": "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript",
+  "name": "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript",
   "version": "0.0.0-development",
   "description": "ESLint config for all Asset Tracker Cloud Example projects.",
   "main": "index.js",
