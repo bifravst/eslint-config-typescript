@@ -20,3 +20,7 @@ for usage.
 ## Installation
 
     npm i --save-dev @nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript
+
+## Usage
+
+    echo '{"extends": "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript"}' > .eslintrc
