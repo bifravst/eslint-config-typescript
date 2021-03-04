@@ -11,7 +11,7 @@
 
 ESLint configuration (with
 [TypeScript support](https://github.com/typescript-eslint/typescript-eslint))
-for all Asset Tracker Cloud Example projects.
+for all nRF Asset Tracker projects.
 
 See
 [@nordicsemiconductor/code-style](https://github.com/NordicSemiconductor/code-style)

@@ -1,7 +1,7 @@
 {
   "name": "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript",
   "version": "0.0.0-development",
-  "description": "ESLint config for all Asset Tracker Cloud Example projects.",
+  "description": "ESLint config for all nRF Asset Tracker projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [
     "Cloud",
     "IoT",
-    "Asset Tracker Cloud Example",
+    "nRF Asset Tracker",
     "Nordic Semiconductor"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
