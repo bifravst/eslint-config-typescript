@@ -20,8 +20,8 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.30.0",
-    "@typescript-eslint/parser": "4.30.0",
+    "@typescript-eslint/eslint-plugin": "4.31.0",
+    "@typescript-eslint/parser": "4.31.0",
     "eslint-config-prettier": "8.3.0"
   },
   "devDependencies": {
