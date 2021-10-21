@@ -13,7 +13,7 @@ ESLint configuration (with
 for all nRF Asset Tracker projects.
 
 See
-[@nordicsemiconductor/code-style](https://github.com/NordicSemiconductor/code-style)
+[@nordicsemiconductor/asset-tracker-cloud-code-style](https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js#readme)
 for usage.
 
 ## Installation
