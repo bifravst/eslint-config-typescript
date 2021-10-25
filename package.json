@@ -23,7 +23,7 @@
     "eslint-config-prettier": "8.3.0"
   },
   "devDependencies": {
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "9.2.1"
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "9.2.3"
   },
   "lint-staged": {
     "*.{yml,md,js,json}": [
