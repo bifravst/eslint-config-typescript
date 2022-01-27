@@ -18,7 +18,7 @@ for usage.
 
 ## Installation
 
-    npm i --save-dev @nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript
+    npm i --save-dev --save-exact @nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript
 
 ## Usage
 
