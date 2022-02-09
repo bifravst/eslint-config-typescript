@@ -23,7 +23,7 @@
     "eslint-plugin-unicorn": "40.1.0"
   },
   "devDependencies": {
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.20"
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.21"
   },
   "lint-staged": {
     "*.{yml,md,js,json}": [
