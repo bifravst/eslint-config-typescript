@@ -51,8 +51,6 @@
   ],
   "scripts": {
     "test": "eslint --ext .js,.ts,.tsx *.js",
-    "postinstall": "husky install",
-    "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "prepare": "husky install"
   }
 }
