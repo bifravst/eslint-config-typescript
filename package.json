@@ -20,7 +20,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.46.0",
     "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-unicorn": "45.0.1"
+    "eslint-plugin-unicorn": "45.0.2"
   },
   "devDependencies": {
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "11.0.156"
