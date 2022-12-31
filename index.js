@@ -56,6 +56,7 @@ module.exports = {
 		'@typescript-eslint/explicit-module-boundary-types': ['error'],
 		'prefer-promise-reject-errors': ['error'],
 		'unicorn/prefer-string-slice': ['error'],
+                '@typescript-eslint/switch-exhaustiveness-check': ['error']
 	},
 	env: {
 		browser: true,
