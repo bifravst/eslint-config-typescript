@@ -19,7 +19,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.56.0",
-    "eslint-config-prettier": "8.7.0",
+    "eslint-config-prettier": "8.8.0",
     "eslint-plugin-unicorn": "46.0.0"
   },
   "devDependencies": {
