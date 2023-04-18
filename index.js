@@ -3,7 +3,7 @@ module.exports = {
 	parserOptions: {
 		project: './tsconfig.json',
 	},
-	plugins: ['@typescript-eslint', 'unicorn', 'prefer-arrow'],
+	plugins: ['@typescript-eslint', 'unicorn', 'prefer-arrow', 'import'],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
@@ -59,6 +59,7 @@ module.exports = {
 		'@typescript-eslint/switch-exhaustiveness-check': ['error'],
 		'prefer-arrow/prefer-arrow-functions': ['error'],
 		'object-shorthand': ['error'],
+		'import/extensions': ['error', 'always', { ignorePackages: true }],
 	},
 	env: {
 		browser: true,
