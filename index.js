@@ -58,6 +58,7 @@ module.exports = {
 		'unicorn/prefer-string-slice': ['error'],
 		'@typescript-eslint/switch-exhaustiveness-check': ['error'],
 		'prefer-arrow/prefer-arrow-functions': ['error'],
+		'object-shorthand': ['error'],
 	},
 	env: {
 		browser: true,
