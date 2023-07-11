@@ -61,6 +61,21 @@ module.exports = {
 		'object-shorthand': ['error'],
 		'import/extensions': ['error', 'always', { ignorePackages: true }],
 	},
+	overrides: [
+		{
+			files: ['*.tsx'],
+			rules: {
+				'@typescript-eslint/explicit-module-boundary-types': 'off',
+			},
+		},
+		{
+			files: ['*.d.ts'],
+			rules: {
+				'@typescript-eslint/consistent-type-definitions': 'off',
+				'@typescript-eslint/ban-types': 'off',
+			},
+		},
+	],
 	env: {
 		browser: true,
 		amd: true,
