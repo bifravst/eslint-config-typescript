@@ -1,13 +1,20 @@
-module.exports = {
+import unusedImports from 'eslint-plugin-unused-imports'
+import typescriptEslint from '@typescript-eslint'
+import unicorn from 'unicorn'
+import prefer from 'prefer-arrow'
+import importPlugin from 'import'
+import prettierConfig from 'eslint-config-prettier'
+
+export const config = {
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		project: './tsconfig.json',
 	},
-	plugins: ['@typescript-eslint', 'unicorn', 'prefer-arrow', 'import'],
+	plugins: [typescriptEslint, unicorn, prefer, importPlugin, unusedImports],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		'prettier',
+		prettierConfig,
 	],
 	rules: {
 		'@typescript-eslint/indent': ['off'],
@@ -60,6 +67,7 @@ module.exports = {
 		'prefer-arrow/prefer-arrow-functions': ['error'],
 		'object-shorthand': ['error'],
 		'import/extensions': ['error', 'always', { ignorePackages: true }],
+		'unused-imports/no-unused-imports': ['error'],
 	},
 	overrides: [
 		{
@@ -82,3 +90,5 @@ module.exports = {
 		node: true,
 	},
 }
+
+export default [config]
