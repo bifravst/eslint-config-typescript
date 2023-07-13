@@ -1,20 +1,13 @@
-import unusedImports from 'eslint-plugin-unused-imports'
-import typescriptEslint from '@typescript-eslint'
-import unicorn from 'unicorn'
-import prefer from 'prefer-arrow'
-import importPlugin from 'import'
-import prettierConfig from 'eslint-config-prettier'
-
-export const config = {
+module.exports = {
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		project: './tsconfig.json',
 	},
-	plugins: [typescriptEslint, unicorn, prefer, importPlugin, unusedImports],
+	plugins: ['@typescript-eslint', 'unicorn', 'prefer-arrow', 'import'],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		prettierConfig,
+		'prettier',
 	],
 	rules: {
 		'@typescript-eslint/indent': ['off'],
@@ -67,28 +60,10 @@ export const config = {
 		'prefer-arrow/prefer-arrow-functions': ['error'],
 		'object-shorthand': ['error'],
 		'import/extensions': ['error', 'always', { ignorePackages: true }],
-		'unused-imports/no-unused-imports': ['error'],
 	},
-	overrides: [
-		{
-			files: ['*.tsx'],
-			rules: {
-				'@typescript-eslint/explicit-module-boundary-types': 'off',
-			},
-		},
-		{
-			files: ['*.d.ts'],
-			rules: {
-				'@typescript-eslint/consistent-type-definitions': 'off',
-				'@typescript-eslint/ban-types': 'off',
-			},
-		},
-	],
 	env: {
 		browser: true,
 		amd: true,
 		node: true,
 	},
 }
-
-export default [config]
