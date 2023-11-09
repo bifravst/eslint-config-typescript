@@ -29,6 +29,10 @@ jobs:
         run: npm ci --no-audit
       - name: Install peer dependencies
         run: npm i --no-save eslint typescript
+      - name: Check source code with eslint
+        run: npx eslint --fix --ext .js,.ts,.jsx,.tsx --ignore-pattern commitlint.config.js --ignore-path .gitignore ./
+      - name: Check if source code is properly formatted
+        run: npx prettier -c ./
       - run: npm test
       - name: Semantic release
         continue-on-error: true
