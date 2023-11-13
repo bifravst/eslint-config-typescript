@@ -20,7 +20,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "18.4.0",
     "@nordicsemiconductor/asset-tracker-cloud-code-style": "12.0.106",
-    "@typescript-eslint/eslint-plugin": "6.10.0",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-prefer-arrow": "1.2.3",
