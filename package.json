@@ -19,7 +19,7 @@
   "license": "BSD-3-Clause",
   "devDependencies": {
     "@commitlint/config-conventional": "18.6.0",
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "13.1.15",
+    "@nordicsemiconductor/asset-tracker-cloud-code-style": "13.1.16",
     "@typescript-eslint/eslint-plugin": "7.0.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
