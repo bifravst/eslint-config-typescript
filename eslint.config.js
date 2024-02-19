@@ -83,6 +83,13 @@ export default tseslint.config(
 		},
 	},
 	{
-		ignores: ['eslint.config.js'],
+		ignores: ['eslint.config.js', 'commitlint.config.cjs'],
+	},
+	// Do not require return declaration on JSX components
+	{
+		files: ['**/*.tsx'],
+		rules: {
+			'@typescript-eslint/explicit-module-boundary-types': ['warn'],
+		},
 	},
 )
