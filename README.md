@@ -20,4 +20,10 @@ for usage.
 
 ## Usage
 
-    echo '{"extends": "@bifravst/eslint-config-typescript"}' > .eslintrc.json
+Add a file `eslint.config.js` to your project, and adapt:
+
+```js
+import config from "@bifravst/eslint-config-typescript";
+
+export default [...config, { ignores: ["dist/*"] }];
+```
