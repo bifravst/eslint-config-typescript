@@ -1,30 +1,37 @@
 {
-  "name": "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript",
+  "name": "@bifravst/eslint-config-typescript",
   "version": "0.0.0-development",
-  "description": "ESLint config for all nRF Asset Tracker projects.",
-  "main": "index.js",
+  "description": "ESLint config for all our projects.",
+  "type": "module",
+  "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript.git"
+    "url": "git+https://github.com/bifravst/eslint-config-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/issues"
+    "url": "https://github.com/bifravst/eslint-config-typescript/issues"
   },
-  "homepage": "https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript#readme",
+  "homepage": "https://github.com/bifravst/eslint-config-typescript#readme",
   "keywords": [
-    "nrf-asset-tracker",
-    "iot"
+    "eslint",
+    "typescript",
+    "typescript-eslint"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
-  "devDependencies": {
-    "@commitlint/config-conventional": "18.6.2",
-    "@nordicsemiconductor/asset-tracker-cloud-code-style": "13.1.16",
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.0.1",
+    "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-unicorn": "51.0.1",
+    "typescript": "5.3.3",
+    "typescript-eslint": "7.0.1"
+  },
+  "devDependencies": {
+    "@bifravst/prettier-config": "1.0.0",
+    "@commitlint/config-conventional": "18.6.2",
     "husky": "9.0.11"
   },
   "lint-staged": {
@@ -64,7 +71,8 @@
     "README.md"
   ],
   "scripts": {
-    "test": "eslint --ext .js,.ts,.tsx *.js",
+    "test": "eslint *.ts",
     "prepare": "husky"
-  }
+  },
+  "prettier": "@bifravst/prettier-config"
 }

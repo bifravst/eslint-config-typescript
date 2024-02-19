@@ -1,15 +1,14 @@
-# TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript.svg)](https://www.npmjs.com/package/@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript)
+# TypeScript ESLint Config [![npm version](https://img.shields.io/npm/v/@bifravst/eslint-config-typescript.svg)](https://www.npmjs.com/package/@bifravst/eslint-config-typescript)
 
-[![GitHub Actions](https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/workflows/Semantic%20Release/badge.svg)](https://github.com/NordicSemiconductor/asset-tracker-cloud-eslint-config-typescript/actions)
+[![GitHub Actions](https://github.com/bifravst/eslint-config-typescript/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/eslint-config-typescript/actions)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
 [![@commitlint/config-conventional](https://img.shields.io/badge/%40commitlint-config--conventional-brightgreen)](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier/)
 [![ESLint: TypeScript](https://img.shields.io/badge/ESLint-TypeScript-blue.svg)](https://github.com/typescript-eslint/typescript-eslint)
 
-ESLint configuration (with
-[TypeScript support](https://github.com/typescript-eslint/typescript-eslint))
-for all nRF Asset Tracker projects.
+ESLint configuration (with [TypeScript support](https://typescript-eslint.io/))
+for all our projects.
 
 See
 [@nordicsemiconductor/asset-tracker-cloud-code-style](https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js#readme)
@@ -17,8 +16,8 @@ for usage.
 
 ## Installation
 
-    npm i --save-dev --save-exact @nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript
+    npm i --save-dev --save-exact @bifravst/eslint-config-typescript
 
 ## Usage
 
-    echo '{"extends": "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript"}' > .eslintrc
+    echo '{"extends": "@bifravst/eslint-config-typescript"}' > .eslintrc.json
