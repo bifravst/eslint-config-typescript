@@ -8,11 +8,8 @@
 [![ESLint: TypeScript](https://img.shields.io/badge/ESLint-TypeScript-blue.svg)](https://github.com/typescript-eslint/typescript-eslint)
 
 ESLint configuration (with [TypeScript support](https://typescript-eslint.io/))
-for all our projects.
-
-See
-[@nordicsemiconductor/asset-tracker-cloud-code-style](https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js#readme)
-for usage.
+for all our projects. Uses the
+[new ESLint config format](https://eslint.org/docs/latest/use/configure/configuration-files-new).
 
 ## Installation
 
