@@ -14,13 +14,11 @@ export default tseslint.config(
 		languageOptions: {
 			parserOptions: {
 				project: true,
-				tsconfigRootDir: import.meta.dirname,
 			},
 		},
 	},
 	prettier,
-	unicorn.configs['flat/all'],
-	{ plugins: { 'prefer-arrow': preferArrow, import: importPlugin } },
+	{ plugins: { 'prefer-arrow': preferArrow, import: importPlugin, unicorn } },
 	{
 		rules: {
 			'@typescript-eslint/indent': ['off'],
@@ -73,6 +71,11 @@ export default tseslint.config(
 			'prefer-arrow/prefer-arrow-functions': ['error'],
 			'object-shorthand': ['error'],
 			'import/extensions': ['error', 'always', { ignorePackages: true }],
+			'@typescript-eslint/no-unsafe-enum-comparison': ['warn'],
+			'@typescript-eslint/no-unsafe-assignment': ['warn'],
+			'@typescript-eslint/no-unsafe-member-access': ['warn'],
+			'@typescript-eslint/no-unsafe-return': ['warn'],
+			'@typescript-eslint/no-unsafe-argument': ['warn'],
 		},
 	},
 	{
