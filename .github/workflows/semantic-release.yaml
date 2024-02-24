@@ -2,8 +2,6 @@ name: Semantic Release
 
 on:
   push:
-    branches:
-      - saga
 
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
