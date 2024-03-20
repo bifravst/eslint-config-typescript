@@ -89,7 +89,7 @@ export default tseslint.config(
 	{
 		files: ['**/*.tsx'],
 		rules: {
-			'@typescript-eslint/explicit-module-boundary-types': ['warn'],
+			'@typescript-eslint/explicit-module-boundary-types': ['off'],
 		},
 	},
 )
