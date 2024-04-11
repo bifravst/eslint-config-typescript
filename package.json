@@ -67,7 +67,6 @@
     "access": "public"
   },
   "files": [
-    "package-lock.json",
     "index.js",
     "LICENSE",
     "README.md"
