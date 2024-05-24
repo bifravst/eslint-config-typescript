@@ -80,6 +80,7 @@ export default tseslint.config(
 			'@typescript-eslint/require-await': ['warn'],
 			'@typescript-eslint/no-misused-promises': ['warn'],
 			'@typescript-eslint/no-base-to-string': ['warn'],
+			'@typescript-eslint/consistent-type-imports': ['error'],
 		},
 	},
 	{
