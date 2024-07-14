@@ -33,8 +33,10 @@
   "devDependencies": {
     "@bifravst/prettier-config": "1.0.4",
     "@commitlint/config-conventional": "19.2.2",
+    "cat": "*",
     "commitlint": "19.3.0",
-    "husky": "9.0.11"
+    "husky": "9.0.11",
+    "package.json": "*"
   },
   "lint-staged": {
     "*.{yml,md,js,json}": [
@@ -75,5 +77,9 @@
     "test": "eslint *.ts",
     "prepare": "husky"
   },
-  "prettier": "@bifravst/prettier-config"
+  "prettier": "@bifravst/prettier-config",
+  "peerDependencies": {
+    "cat": "^0.2.0",
+    "package.json": "^2.0.1"
+  }
 }
