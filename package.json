@@ -33,7 +33,7 @@
   "devDependencies": {
     "@bifravst/prettier-config": "1.0.4",
     "@commitlint/config-conventional": "19.2.2",
-    "commitlint": "19.3.0",
+    "commitlint": "19.4.0",
     "husky": "9.1.4"
   },
   "lint-staged": {
