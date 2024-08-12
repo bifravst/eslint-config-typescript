@@ -1,11 +1,11 @@
 // @ts-check
 
 import eslint from '@eslint/js'
-import tseslint from 'typescript-eslint'
-import unicorn from 'eslint-plugin-unicorn'
-import preferArrow from 'eslint-plugin-prefer-arrow'
 import prettier from 'eslint-config-prettier'
 import * as importPlugin from 'eslint-plugin-import'
+import preferArrow from 'eslint-plugin-prefer-arrow'
+import unicorn from 'eslint-plugin-unicorn'
+import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
 	eslint.configs.recommended,
