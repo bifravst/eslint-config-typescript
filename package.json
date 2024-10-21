@@ -20,15 +20,15 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@eslint/js": "8.57.1",
-    "@typescript-eslint/eslint-plugin": "7.18.0",
-    "eslint": "8.57.1",
+    "@eslint/js": "9.13.0",
+    "@typescript-eslint/eslint-plugin": "8.11.0",
+    "eslint": "9.13.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prefer-arrow": "1.2.3",
-    "eslint-plugin-unicorn": "52.0.0",
+    "eslint-plugin-unicorn": "56.0.0",
     "typescript": "5.6.3",
-    "typescript-eslint": "7.18.0"
+    "typescript-eslint": "8.11.0"
   },
   "devDependencies": {
     "@bifravst/prettier-config": "1.1.1",
