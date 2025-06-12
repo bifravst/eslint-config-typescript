@@ -94,4 +94,11 @@ export default tseslint.config(
 			'@typescript-eslint/explicit-module-boundary-types': ['off'],
 		},
 	},
+	// Be less strict on test files
+	{
+		files: ['**/*.spec.ts', '**/*.test.ts'],
+		rules: {
+			'@typescript-eslint/no-unsafe-assignment': ['off'],
+		},
+	},
 )
