@@ -1,8 +1,8 @@
 // @ts-check
 
 import eslint from '@eslint/js'
+import stylistic from '@stylistic/eslint-plugin'
 import prettier from 'eslint-config-prettier'
-import * as importPlugin from 'eslint-plugin-import'
 import preferArrow from 'eslint-plugin-prefer-arrow'
 import unicorn from 'eslint-plugin-unicorn'
 import tseslint from 'typescript-eslint'
@@ -19,7 +19,9 @@ export default tseslint.config(
 		},
 	},
 	prettier,
-	{ plugins: { 'prefer-arrow': preferArrow, import: importPlugin, unicorn } },
+	{
+		plugins: { 'prefer-arrow': preferArrow, unicorn, '@stylistic': stylistic },
+	},
 	{
 		rules: {
 			'@typescript-eslint/indent': ['off'],
@@ -45,7 +47,7 @@ export default tseslint.config(
 			'@typescript-eslint/restrict-plus-operands': ['error'],
 			semi: 'off',
 			'@typescript-eslint/semi': ['off'],
-			'@typescript-eslint/member-delimiter-style': [
+			'@stylistic/member-delimiter-style': [
 				'error',
 				{
 					multiline: {
@@ -71,7 +73,6 @@ export default tseslint.config(
 			'@typescript-eslint/switch-exhaustiveness-check': ['error'],
 			'prefer-arrow/prefer-arrow-functions': ['error'],
 			'object-shorthand': ['error'],
-			'import/extensions': ['error', 'always', { ignorePackages: true }],
 			'@typescript-eslint/no-unsafe-enum-comparison': ['warn'],
 			'@typescript-eslint/no-unsafe-assignment': ['warn'],
 			'@typescript-eslint/no-unsafe-member-access': ['warn'],
