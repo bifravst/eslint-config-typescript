@@ -22,12 +22,12 @@
   "dependencies": {
     "@eslint/js": "10.0.1",
     "@stylistic/eslint-plugin": "5.10.0",
-    "@typescript-eslint/eslint-plugin": "8.58.0",
+    "@typescript-eslint/eslint-plugin": "8.58.1",
     "eslint": "10.2.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prefer-arrow": "1.2.3",
     "eslint-plugin-unicorn": "63.0.0",
-    "typescript-eslint": "8.58.0"
+    "typescript-eslint": "8.58.1"
   },
   "devDependencies": {
     "@bifravst/prettier-config": "1.1.17",
