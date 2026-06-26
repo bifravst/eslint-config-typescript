@@ -31,8 +31,8 @@
   },
   "devDependencies": {
     "@bifravst/prettier-config": "1.1.17",
-    "@commitlint/config-conventional": "21.0.2",
-    "commitlint": "21.0.2",
+    "@commitlint/config-conventional": "21.1.0",
+    "commitlint": "21.1.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8"
   },
