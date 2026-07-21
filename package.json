@@ -34,7 +34,7 @@
     "@commitlint/config-conventional": "21.2.0",
     "commitlint": "21.2.1",
     "husky": "9.1.7",
-    "lint-staged": "17.0.8"
+    "lint-staged": "17.1.0"
   },
   "lint-staged": {
     "*.{yml,md,js,json}": [
