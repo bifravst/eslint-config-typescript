@@ -32,6 +32,7 @@
   "devDependencies": {
     "@bifravst/prettier-config": "1.1.17",
     "@commitlint/config-conventional": "21.2.0",
+    "check-node-version": "4.2.1",
     "commitlint": "21.2.1",
     "husky": "9.1.7",
     "lint-staged": "17.3.0"
@@ -43,7 +44,7 @@
   },
   "engines": {
     "node": ">=24",
-    "npm": ">=11"
+    "npm": ">=12.0.2 <13"
   },
   "release": {
     "branches": [
@@ -73,7 +74,7 @@
   ],
   "scripts": {
     "test": "eslint *.ts",
-    "prepare": "husky"
+    "prepare": "husky && case \"$npm_command\" in install|ci) check-node-version --package ;; esac"
   },
   "prettier": "@bifravst/prettier-config"
 }
