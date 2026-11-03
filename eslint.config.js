@@ -83,6 +83,34 @@ export default tseslint.config(
 			'@typescript-eslint/no-misused-promises': ['warn'],
 			'@typescript-eslint/no-base-to-string': ['warn'],
 			'@typescript-eslint/consistent-type-imports': ['error'],
+			// Disallow TypeScript syntax that is not erasable, because it is not supported by the type stripping in Node.js.
+			// See https://nodejs.org/api/typescript.html#type-stripping
+			// Namespaces are disallowed by @typescript-eslint/no-namespace, `import x = require()` by @typescript-eslint/no-require-imports.
+			'@typescript-eslint/no-namespace': ['error'],
+			'no-restricted-syntax': [
+				'error',
+				{
+					selector: 'TSEnumDeclaration',
+					message:
+						'Enums are not supported by the TypeScript type stripping in Node.js. Use a union type or an `as const` object instead.',
+				},
+				{
+					selector: 'TSParameterProperty',
+					message:
+						'Parameter properties are not supported by the TypeScript type stripping in Node.js. Declare the property in the class body and assign it in the constructor instead.',
+				},
+				{
+					selector:
+						'TSImportEqualsDeclaration[importKind="value"]:not([moduleReference.type="TSExternalModuleReference"])',
+					message:
+						'Import aliases (`import x = N.y`) are not supported by the TypeScript type stripping in Node.js. Use `const x = N.y` instead.',
+				},
+				{
+					selector: 'TSExportAssignment',
+					message:
+						'`export =` is not supported by the TypeScript type stripping in Node.js. Use `export default` instead.',
+				},
+			],
 		},
 	},
 	{

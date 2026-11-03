@@ -25,6 +25,29 @@ import config from "@bifravst/eslint-config-typescript";
 export default [...config, { ignores: ["dist/*"] }];
 ```
 
+### Node.js type stripping
+
+The config disallows TypeScript syntax that is not supported by
+[type stripping in Node.js](https://nodejs.org/api/typescript.html#type-stripping):
+enums, namespaces, parameter properties, import aliases (`import x = N.y`),
+`import x = require()`, and `export =`.
+
+If you override `no-restricted-syntax` in your own config, ESLint replaces the
+rule's options instead of merging them, so copy the entries from this config
+into yours to keep these checks.
+
+It is also recommended to enable the
+[`erasableSyntaxOnly`](https://www.typescriptlang.org/tsconfig/#erasableSyntaxOnly)
+compiler option in your `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "erasableSyntaxOnly": true
+  }
+}
+```
+
 ## Node & NPM
 
 This project requires Node.js `>=24.19.0 <25` and npm `>=12.0.2 <13` (enforced
